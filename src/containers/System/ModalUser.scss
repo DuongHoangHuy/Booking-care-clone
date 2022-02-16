@@ -1,0 +1,36 @@
+.modal-header{
+    button{
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        color: white
+    }
+}
+
+.modal-body-container{
+    padding: 0;
+    .row-container{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin: 20px;
+        .input-container{
+            flex-grow: 1;
+            input, label{
+                display: block;
+            }
+            input{
+                outline: none;
+                border-radius: 7px;
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+.modal-footer{
+    button{ 
+        padding: 0 10px;
+    }
+}
